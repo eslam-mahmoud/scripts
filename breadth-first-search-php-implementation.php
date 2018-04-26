@@ -51,7 +51,7 @@
                 return true;
             } else {
                 // else use the first element in the queue to be the new start point 
-                return breadthFirstSearch($haystack, $key, $end, $queue, $visited);
+                return breadthFirstSearch($haystack, $key, $needle, $queue, $visited);
             }
         }
         // we should not be here because of the null check inside the while()
